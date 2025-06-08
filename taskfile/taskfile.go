@@ -13,6 +13,8 @@ import (
 
 var (
 	defaultTaskfiles = []string{
+		".taskfile.yml",
+		".taskfile.yaml",
 		"Taskfile.yml",
 		"taskfile.yml",
 		"Taskfile.yaml",
