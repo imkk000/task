@@ -2,6 +2,8 @@ module github.com/go-task/task/v3
 
 go 1.23.0
 
+replace github.com/go-task/task/v3 => github.com/imkk000/task/v3 v3.0.0
+
 require (
 	github.com/Ladicle/tabwriter v1.0.0
 	github.com/Masterminds/semver/v3 v3.3.1
