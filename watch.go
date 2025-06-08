@@ -14,11 +14,11 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/puzpuzpuz/xsync/v3"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/internal/fingerprint"
-	"github.com/go-task/task/v3/internal/fsnotifyext"
-	"github.com/go-task/task/v3/internal/logger"
+	"github.com/imkk000/task/v3/errors"
+	"github.com/imkk000/task/v3/internal/filepathext"
+	"github.com/imkk000/task/v3/internal/fingerprint"
+	"github.com/imkk000/task/v3/internal/fsnotifyext"
+	"github.com/imkk000/task/v3/internal/logger"
 )
 
 const defaultWaitTime = 100 * time.Millisecond

@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/internal/summary"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/imkk000/task/v3/internal/logger"
+	"github.com/imkk000/task/v3/internal/summary"
+	"github.com/imkk000/task/v3/taskfile/ast"
 )
 
 func TestPrintsDependenciesIfPresent(t *testing.T) {

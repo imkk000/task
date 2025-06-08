@@ -14,9 +14,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/storage/memory"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/execext"
-	"github.com/go-task/task/v3/internal/filepathext"
+	"github.com/imkk000/task/v3/errors"
+	"github.com/imkk000/task/v3/internal/execext"
+	"github.com/imkk000/task/v3/internal/filepathext"
 )
 
 // An GitNode is a node that reads a Taskfile from a remote location via Git.
